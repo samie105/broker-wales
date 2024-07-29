@@ -24,14 +24,14 @@ export default function MT() {
               Enhancing{" "}
               <span
                 className="
-text-[#009688]"
+text-[#cf0000]"
               >
                 Investment
               </span>{" "}
               Opportunities with Capital Nexus Versatile{" "}
               <span
                 className="
-text-[#009688]"
+text-[#cf0000]"
               >
                 CFD Trading
               </span>
@@ -49,7 +49,7 @@ text-[#009688]"
               classes, including{" "}
               <span
                 className="
-text-[#009688] font-bold"
+text-[#cf0000] font-bold"
               >
                 Forex, Indices, Shares, Commodities, Metals, Digital Currencies,
                 Bonds, and ETFs
@@ -59,7 +59,7 @@ text-[#009688] font-bold"
               States, along with the{" "}
               <span
                 className="
-text-[#009688] font-bold"
+text-[#cf0000] font-bold"
               >
                 Australian Stock Exchange (ASX)
               </span>

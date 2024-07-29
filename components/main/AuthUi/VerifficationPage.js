@@ -184,7 +184,7 @@ export default function VerificationPage({ Label, Input, Button, formData }) {
 
         <Button
           type="button"
-          className="w-full bg-[#009688] text-white h-11 py-5 px-4 rounded-lg mt-4"
+          className="w-full bg-[#cf0000] text-white h-11 py-5 px-4 rounded-lg mt-4"
           onClick={handleVerifyCode}
           disabled={isLoading}
         >

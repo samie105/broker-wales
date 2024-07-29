@@ -27,7 +27,7 @@ export default function FAQ() {
               xmlns="http://www.w3.org/2000/svg"
               viewBox="0 0 24 24"
               fill="currentColor"
-              className="w-5 h-5 mr-2 text-[#009688]"
+              className="w-5 h-5 mr-2 text-[#cf0000]"
             >
               <path
                 fillRule="evenodd"
@@ -44,8 +44,8 @@ export default function FAQ() {
           className="larger-text text-2xl font-bold capitalize"
           data-aos="fade-left"
         >
-          You Got <span className="text-[#009688]">questions?</span> we got{" "}
-          <span className="text-[#009688]">answers!</span>
+          You Got <span className="text-[#cf0000]">questions?</span> we got{" "}
+          <span className="text-[#cf0000]">answers!</span>
         </div>
         <div className="text-writeUp text-sm my-3" data-aos="fade-left">
           <p>
@@ -69,7 +69,7 @@ export default function FAQ() {
             data-aos="fade-up"
             data-aos-delay="100"
           >
-            <AccordionTrigger className="font-bold text-sm hover:no-underline">
+            <AccordionTrigger className="font-bold border-0 text-sm hover:no-underline">
               How can I get started with your platform?
             </AccordionTrigger>
             <AccordionContent>
@@ -84,7 +84,7 @@ export default function FAQ() {
             data-aos="fade-up"
             data-aos-delay="200"
           >
-            <AccordionTrigger className="font-bold text-sm hover:no-underline">
+            <AccordionTrigger className="font-bold border-0 text-sm hover:no-underline">
               What payment methods do you support?
             </AccordionTrigger>
             <AccordionContent>
@@ -99,7 +99,7 @@ export default function FAQ() {
             data-aos="fade-up"
             data-aos-delay="300"
           >
-            <AccordionTrigger className="font-bold text-sm hover:no-underline">
+            <AccordionTrigger className="font-bold border-0 text-sm hover:no-underline">
               Are my funds safe with your platform?
             </AccordionTrigger>
             <AccordionContent>
@@ -114,7 +114,7 @@ export default function FAQ() {
             data-aos="fade-up"
             data-aos-delay="400"
           >
-            <AccordionTrigger className="font-bold text-sm hover:no-underline">
+            <AccordionTrigger className="font-bold border-0 text-sm hover:no-underline">
               Do you provide customer support?
             </AccordionTrigger>
             <AccordionContent>
@@ -129,7 +129,7 @@ export default function FAQ() {
             data-aos="fade-up"
             data-aos-delay="500"
           >
-            <AccordionTrigger className="font-bold text-sm hover:no-underline">
+            <AccordionTrigger className="font-bold border-0 text-sm hover:no-underline">
               Can I trade on mobile devices?
             </AccordionTrigger>
             <AccordionContent>
@@ -144,7 +144,7 @@ export default function FAQ() {
             data-aos="fade-up"
             data-aos-delay="600"
           >
-            <AccordionTrigger className="font-bold text-sm hover:no-underline">
+            <AccordionTrigger className="font-bold border-0 text-sm hover:no-underline">
               How can I withdraw my profits?
             </AccordionTrigger>
             <AccordionContent>
@@ -162,7 +162,7 @@ export default function FAQ() {
                 data-aos="fade-up"
                 data-aos-delay="700"
               >
-                <AccordionTrigger className="font-bold text-sm hover:no-underline">
+                <AccordionTrigger className="font-bold border-0 text-sm hover:no-underline">
                   What should I do if I forgot my password?
                 </AccordionTrigger>
                 <AccordionContent>
@@ -177,7 +177,7 @@ export default function FAQ() {
                 data-aos="fade-up"
                 data-aos-delay="800"
               >
-                <AccordionTrigger className="font-bold text-sm hover:no-underline">
+                <AccordionTrigger className="font-bold border-0 text-sm hover:no-underline">
                   Is there a minimum deposit amount?
                 </AccordionTrigger>
                 <AccordionContent>
@@ -192,7 +192,7 @@ export default function FAQ() {
                 data-aos="fade-up"
                 data-aos-delay="900"
               >
-                <AccordionTrigger className="font-bold text-sm hover:no-underline">
+                <AccordionTrigger className="font-bold border-0 text-sm hover:no-underline">
                   What trading tools do you offer?
                 </AccordionTrigger>
                 <AccordionContent>
@@ -209,7 +209,7 @@ export default function FAQ() {
                 data-aos="fade-up"
                 data-aos-delay="1000"
               >
-                <AccordionTrigger className="font-bold text-sm hover:no-underline">
+                <AccordionTrigger className="font-bold border-0 text-sm hover:no-underline">
                   Are there any trading fees?
                 </AccordionTrigger>
                 <AccordionContent>
@@ -225,7 +225,7 @@ export default function FAQ() {
                 data-aos="fade-up"
                 data-aos-delay="1100"
               >
-                <AccordionTrigger className="font-bold text-sm hover:no-underline">
+                <AccordionTrigger className="font-bold border-0 text-sm hover:no-underline">
                   Can I use automated trading strategies?
                 </AccordionTrigger>
                 <AccordionContent>
@@ -241,7 +241,7 @@ export default function FAQ() {
                 data-aos="fade-up"
                 data-aos-delay="1200"
               >
-                <AccordionTrigger className="font-bold text-sm hover:no-underline">
+                <AccordionTrigger className="font-bold border-0 text-sm hover:no-underline">
                   Is there a demo account available?
                 </AccordionTrigger>
                 <AccordionContent>

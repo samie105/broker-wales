@@ -667,7 +667,7 @@ const Signup = () => {
                 isDarkMode ? "text-gray-200" : "text-gray-950"
               } font-bold text-lg`}
             >
-              <span className={`text-[#009688]`}>Create</span> a new account
+              <span className={`text-[#cf0000]`}>Create</span> a new account
             </div>
             <p
               className={`text-sm font-normal ${
@@ -675,9 +675,9 @@ const Signup = () => {
               } mt-3`}
             >
               Create a new{" "}
-              <span className={`text-[#009688] font-bold`}>account</span> to
+              <span className={`text-[#cf0000] font-bold`}>account</span> to
               enjoy immense benefits and financial freedom, it's easy, it's{" "}
-              <span className={` text-[#009688] font-bold`}>simple</span>
+              <span className={` text-[#cf0000] font-bold`}>simple</span>
             </p>
           </div>
           <div className="progress w-full mt-2 mb-8">
@@ -687,7 +687,7 @@ const Signup = () => {
               } relative`}
             >
               <div
-                className={`progress-bar h-full w-1/2 transition-all duration-500 absolute bg-[#009688] rounded-full top-0 left-0`}
+                className={`progress-bar h-full w-1/2 transition-all duration-500 absolute bg-[#cf0000] rounded-full top-0 left-0`}
                 style={{ width: `${currentStep * (100 / 3)}%` }}
               ></div>
             </div>
@@ -723,7 +723,7 @@ const Signup = () => {
               <Button
                 type="button"
                 onClick={handleNextStep}
-                className="w-full flex items-center justify-center bg-[#009688] text-white h-12 font-bold roundd-lg"
+                className="w-full flex items-center justify-center bg-[#cf0000] text-white h-12 font-bold roundd-lg"
                 disabled={!formState.isValid}
               >
                 <div className="py-2 flex items-center justify-center">
@@ -741,7 +741,7 @@ const Signup = () => {
             {currentStep === totalSteps - 1 && (
               <Button
                 type="submit"
-                className="w-full  flex items-center justify-center bg-[#009688] text-white h-12 font-bold rounded-lg"
+                className="w-full  flex items-center justify-center bg-[#cf0000] text-white h-12 font-bold rounded-lg"
                 //disabled={!formState.isValid}
               >
                 <div className="py-2 flex items-center justify-center">

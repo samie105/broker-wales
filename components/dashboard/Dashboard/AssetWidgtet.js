@@ -15,7 +15,7 @@ export default function AssetWidgtet() {
         <Link href="dashboard/deposits" passHref>
           {" "}
           <div>
-            <button className="bg-[#009688] rounded-md py-3 px-5 text-white font-bold text-xs md:text-sm">
+            <button className="bg-[#cf0000] rounded-md py-3 px-5 text-white font-bold text-xs md:text-sm">
               Deposit
             </button>
           </div>
