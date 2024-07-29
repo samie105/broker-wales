@@ -146,7 +146,7 @@ export default function Staking() {
                   <div className="btn-section mt-5">
                     <Dialog className={`${isDarkMode ? "bg-[#111]" : ""}`}>
                       <DialogTrigger className="w-full">
-                        <div className="btn rounded-sm cursor-pointer text-white bg-[#0052FF] w-full py-3 text-center font-bold text-sm">
+                        <div className="btn rounded-sm cursor-pointer text-white bg-[#009688] w-full py-3 text-center font-bold text-sm">
                           Stake {stake.coinName}
                         </div>
                       </DialogTrigger>

@@ -137,7 +137,7 @@ export default function Withdrawals() {
                   </div>
                   <div className="cta pt-2 flex justify-center">
                     <Link href="/dashboard/verify" passHref>
-                      <button className="bg-[#0052FF] text-white py-3 px-9 text-sm font-bold rounded-md hover:bg-slate-600">
+                      <button className="bg-[#009688] text-white py-3 px-9 text-sm font-bold rounded-md hover:bg-slate-600">
                         Verify Now
                       </button>
                     </Link>
@@ -160,15 +160,15 @@ export default function Withdrawals() {
                         <div className="block">
                           {" "}
                           <div
-                            className={`icon-cont bg-gry-50  rounded-full p-3 mr-2 text-[#0052FF]  ${
-                              isDarkMode ? "bg-[#0052FF20]" : "bg-[#0052FF10]"
+                            className={`icon-cont bg-gry-50  rounded-full p-3 mr-2 text-[#009688]  ${
+                              isDarkMode ? "bg-[#00968820]" : "bg-[#00968810]"
                             }`}
                           >
                             <svg
                               xmlns="http://www.w3.org/2000/svg"
                               viewBox="0 0 20 20"
                               fill="currentColor"
-                              className="w-4 h-4 text-[#0052FF]"
+                              className="w-4 h-4 text-[#009688]"
                             >
                               <path
                                 fillRule="evenodd"

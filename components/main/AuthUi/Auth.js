@@ -20,7 +20,7 @@ export default function Auth() {
               className={`cont rounded-full p-5 ${
                 isDarkMode
                   ? "bg-[#222] text-white/80"
-                  : "bg-[#0052FF10] text-[#0052FF]"
+                  : "bg-[#00968810] text-[#009688]"
               }`}
             >
               <svg
@@ -52,7 +52,7 @@ export default function Auth() {
             <Dialog defaultOpen>
               <DialogTrigger className="w-full px-2">
                 <div className="btn w-full">
-                  <div className="px-4 py-3 bg-[#0052FF] text-white font-semibold text-sm items-center justify-center rounded-md flex">
+                  <div className="px-4 py-3 bg-[#009688] text-white font-semibold text-sm items-center justify-center rounded-md flex">
                     <p>Proceed Authentication</p>
                     {/* <svg
                       xmlns="http://www.w3.org/2000/svg"
@@ -79,7 +79,7 @@ export default function Auth() {
                 className={`px-4 py-3 w-full flex items-center justify-center text-center ${
                   isDarkMode
                     ? "bg-[#222] text-white/80"
-                    : "bg-[#0052FF10] text-[#0052FF]"
+                    : "bg-[#00968810] text-[#009688]"
                 }   font-semibold text-sm rounded-xl`}
               >
                 <p>Back to home</p>

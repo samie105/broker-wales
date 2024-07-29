@@ -159,7 +159,7 @@ export default function Copy() {
                           xmlns="http://www.w3.org/2000/svg"
                           viewBox="0 0 24 24"
                           fill="currentColor"
-                          className="w-5 h-5 ml-1 text-[#0052FF]"
+                          className="w-5 h-5 ml-1 text-[#009688]"
                         >
                           <path
                             fillRule="evenodd"
@@ -409,7 +409,7 @@ export default function Copy() {
                             ? isDarkMode
                               ? "bg-[#2826264f] cursor-not-allowed"
                               : "bg-black/5 cursor-not-allowed"
-                            : "bg-[#0052FF] text-white"
+                            : "bg-[#009688] text-white"
                         }  `}
                       >
                         {details.tradersCopying.includes(traders.id)

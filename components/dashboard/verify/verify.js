@@ -376,7 +376,7 @@ export default function Verify() {
 
             <button
               type="submit"
-              className="w-full px-4 mt-4 flex justify-center items-center text-sm rounded bg-[#0052FF] my-3 text-white font-bold  focus:outline-none "
+              className="w-full px-4 mt-4 flex justify-center items-center text-sm rounded bg-[#009688] my-3 text-white font-bold  focus:outline-none "
             >
               {loading ? (
                 <InfinitySpin width="100" color="#ffffff" />

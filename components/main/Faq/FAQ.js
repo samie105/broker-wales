@@ -27,7 +27,7 @@ export default function FAQ() {
               xmlns="http://www.w3.org/2000/svg"
               viewBox="0 0 24 24"
               fill="currentColor"
-              className="w-5 h-5 mr-2 text-[#0052FF]"
+              className="w-5 h-5 mr-2 text-[#009688]"
             >
               <path
                 fillRule="evenodd"
@@ -44,8 +44,8 @@ export default function FAQ() {
           className="larger-text text-2xl font-bold capitalize"
           data-aos="fade-left"
         >
-          You Got <span className="text-[#0052FF]">questions?</span> we got{" "}
-          <span className="text-[#0052FF]">answers!</span>
+          You Got <span className="text-[#009688]">questions?</span> we got{" "}
+          <span className="text-[#009688]">answers!</span>
         </div>
         <div className="text-writeUp text-sm my-3" data-aos="fade-left">
           <p>

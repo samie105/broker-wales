@@ -17,7 +17,7 @@ export default function Commodities() {
               xmlns="http://www.w3.org/2000/svg"
               viewBox="0 0 20 20"
               fill="currentColor"
-              className="w-5 h-5 mr-2 text-[#0052FF]"
+              className="w-5 h-5 mr-2 text-[#009688]"
             >
               <path
                 fillRule="evenodd"
@@ -38,7 +38,7 @@ export default function Commodities() {
           }`}
         >
           Trade with world-wide accepted{" "}
-          <span className="text-[#0052FF]">Product</span>
+          <span className="text-[#009688]">Product</span>
         </div>
         <div
           data-aos="fade-left"

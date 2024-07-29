@@ -318,7 +318,7 @@ export default function AssetDialog({
           } rounded-sm w-full text-center  mt-3 ${
             percentage === 0 || amount === 0 || showError
               ? "bg-muted-foreground"
-              : " bg-[#0052FF]"
+              : " bg-[#009688]"
           }`}
         >
           {!loading && (

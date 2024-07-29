@@ -128,7 +128,7 @@ export default function BonusPlan() {
             <div className="action">
               <Link href="/dashboard/investments" passHref>
                 <button
-                  className={`py-2 z-50 text-[#0052FF] px-4 bg-[#0052FF10] rounded-md text-sm font-bold ${
+                  className={`py-2 z-50 text-[#009688] px-4 bg-[#00968810] rounded-md text-sm font-bold ${
                     pathname.includes("investments") ? "hidden" : ""
                   }`}
                 >

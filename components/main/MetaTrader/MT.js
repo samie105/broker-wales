@@ -37,9 +37,9 @@ export default function MT() {
               data-aos="fade-up"
               data-aos-delay="100"
             >
-              Advanced <span className="text-[#0052FF]">Trading</span> <br />{" "}
+              Advanced <span className="text-[#009688]">Trading</span> <br />{" "}
               Platforms &{" "}
-              <span className="text-[#0052FF]">Financial Technology</span>
+              <span className="text-[#009688]">Financial Technology</span>
             </div>
             <div
               className={`listtext font-seibold text-sm ${
@@ -56,7 +56,7 @@ export default function MT() {
                     xmlns="http://www.w3.org/2000/svg"
                     viewBox="0 0 20 20"
                     fill="currentColor"
-                    className="w-6 h-6 mr-2 text-[#0052FF] mt-0.5"
+                    className="w-6 h-6 mr-2 text-[#009688] mt-0.5"
                   >
                     <path
                       fillRule="evenodd"
@@ -68,21 +68,21 @@ export default function MT() {
                 <div className="message">
                   <span
                     className="
-text-[#0052FF] font-bold"
+text-[#009688] font-bold"
                   >
                     MetaTrader 4{" "}
                   </span>
                   (MT4) &{" "}
                   <span
                     className="
-text-[#0052FF] font-bold"
+text-[#009688] font-bold"
                   >
                     MetaTrader 5{" "}
                   </span>{" "}
                   (MT5) , IRESS,{" "}
                   <span
                     className="
-text-[#0052FF] font-bold"
+text-[#009688] font-bold"
                   >
                     cTrader
                   </span>{" "}
@@ -99,7 +99,7 @@ text-[#0052FF] font-bold"
                     xmlns="http://www.w3.org/2000/svg"
                     viewBox="0 0 20 20"
                     fill="currentColor"
-                    className="w-6 h-6 mr-2 text-[#0052FF] mt-0.5"
+                    className="w-6 h-6 mr-2 text-[#009688] mt-0.5"
                   >
                     <path
                       fillRule="evenodd"
@@ -122,7 +122,7 @@ text-[#0052FF] font-bold"
                     xmlns="http://www.w3.org/2000/svg"
                     viewBox="0 0 20 20"
                     fill="currentColor"
-                    className="w-6 h-6 mr-2 text-[#0052FF]"
+                    className="w-6 h-6 mr-2 text-[#009688]"
                   >
                     <path
                       fillRule="evenodd"
@@ -135,7 +135,7 @@ text-[#0052FF] font-bold"
                   Superior{" "}
                   <span
                     className="
-text-[#0052FF] font-bold"
+text-[#009688] font-bold"
                   >
                     Virtual Private Servers (VPS)
                   </span>{" "}

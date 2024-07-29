@@ -116,7 +116,7 @@ const Login = () => {
       <form onSubmit={loginHandleSubmit(handleLoginSubmit)} className="">
         <div className="message mb-5">
           <div className=" font-bold">
-            <span className="text-[#0052FF] font-black">Sign-In</span> to your
+            <span className="text-[#009688] font-black">Sign-In</span> to your
             account
           </div>
           <p
@@ -125,7 +125,7 @@ const Login = () => {
             }`}
           >
             Continue where you left off by logging in, we keep{" "}
-            <span className="text-[#0052FF] font-black">track</span> of your
+            <span className="text-[#009688] font-black">track</span> of your
             every progress.
           </p>
         </div>
@@ -252,7 +252,7 @@ const Login = () => {
         <Button
           type="submit"
           disabled={isLoading}
-          className="w-full h-11 font-bold mt-5 bg-[#0052FF] text-white py-3 px-4 rounded-lg"
+          className="w-full h-11 font-bold mt-5 bg-[#009688] text-white py-3 px-4 rounded-lg"
         >
           {isLoading ? <InfinitySpin width="100" color="#ffffff" /> : "Log In"}
         </Button>
