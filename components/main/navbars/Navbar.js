@@ -136,7 +136,7 @@ export default function Navbar() {
                       : ""
                   } ${
                     activeNavItem === item.label
-                      ? "font-bold opacity-100 text-blue-500 text-base border-b-2 border-b-[#cf0000]"
+                      ? "font-bold opacity-100 text-red-500 text-base border-b-2 border-b-[#cf0000]"
                       : "font-normal opacity0"
                   } mx-2 -px-2 pb-1 cursor-pointer transition-opacity duration-500 ${
                     activeNavItem !== item.label ? "hover:opacity-100" : ""
