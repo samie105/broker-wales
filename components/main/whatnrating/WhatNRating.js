@@ -70,7 +70,7 @@ export default function WhatNRating() {
           </div>
           <div className=" text-white ml-10 mr-5 mt-5  lg:text-center lg:mt-1 md:text-center font-extralight">
             <p>
-              Capital Nexus innovative trading platforms and tools provide{" "}
+              HFX Markets innovative trading platforms and tools provide{" "}
               <br className="hidden lg:flex md:flex" /> the power and
               reliability you need to feel more confident in{" "}
               <br className="hidden lg:flex md:flex" /> your trading.

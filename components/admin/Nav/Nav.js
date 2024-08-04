@@ -6,7 +6,7 @@ export default function Nav() {
     <nav className="w-full px-4 py-4 fixed z-50 shadow-muted shadow-lg bg-white">
       <div className="flex items-center justify-between">
         <div className="name-section font-bold text-lg ">
-          Capital Nexus | Admin
+          HFX Markets | Admin
         </div>
         <div className="name-section flex items-center gap-x-3">
           <Link passHref href="/dashboard">

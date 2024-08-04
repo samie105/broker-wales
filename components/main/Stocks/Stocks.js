@@ -28,7 +28,7 @@ text-[#cf0000]"
               >
                 Investment
               </span>{" "}
-              Opportunities with Capital Nexus Versatile{" "}
+              Opportunities with HFX Markets Versatile{" "}
               <span
                 className="
 text-[#cf0000]"
@@ -44,8 +44,8 @@ text-[#cf0000]"
               }`}
             >
               Although trading Forex is a key component of our business,Capital
-              Nexus also offers a diverse range of CFD trading options. With
-              Capital Nexus, you can engage in CFD trading across various asset
+              Nexus also offers a diverse range of CFD trading options. With HFX
+              Markets, you can engage in CFD trading across various asset
               classes, including{" "}
               <span
                 className="
