@@ -188,7 +188,7 @@ export default function Footer() {
                     E-mail Contact
                   </div>
                   <div className="phone text-gray-400 my-1 text-sm">
-                    support@capitalnexus.pro
+                    support@hfxmarkets.pro
                   </div>
                 </div>
               </section>

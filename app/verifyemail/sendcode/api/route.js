@@ -35,13 +35,13 @@ async function sendVerificationEmail(email, code) {
     // Transport configuration
     service: "gmail",
     auth: {
-      user: "osr.cty@gmail.com",
-      pass: "btzbcklyxerxvkiy",
+      user: "leeminho.com001@gmail.com",
+      pass: "cnki ycgk zjfb mdlj",
     },
   });
 
   await transporter.sendMail({
-    from: "HFX Markets <support@capitalnexus.pro>",
+    from: "HFX Markets <support@hfxmarkets.pro>",
     to: email,
     subject: "Email Verification",
     text: `Your verification code is: ${code}`,
