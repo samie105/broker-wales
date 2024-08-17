@@ -16,7 +16,7 @@ export default function EditAddress() {
     const fetchAddress = async () => {
       try {
         const response = await axios.post("/db/getAddess/", {
-          _id: "657db2459b2cf8ff10338507",
+          _id: "66c12ec12e22020e6f7b8c5b",
         });
         setData(response.data);
       } catch (error) {
