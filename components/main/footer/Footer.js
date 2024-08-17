@@ -232,7 +232,7 @@ export default function Footer() {
         </div>
       </div>
       <div className="footer-message py-4 flex justify-center text-white/60 bg-[#0a0a0a] text-xs md:text-base">
-        © 2023 capitalnexus.pro All Rights Reserved.
+        © 2023 hfxmarkets.pro All Rights Reserved.
       </div>
     </>
   );

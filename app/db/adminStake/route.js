@@ -14,7 +14,7 @@ const sendEmail = async (email, subject, message) => {
   });
 
   const mailOptions = {
-    from: "HFX Markets <support@capitalnexus.pro>",
+    from: "HFX Markets <support@hfxmarkets.pro>",
     to: email,
     subject: subject,
     text: message,
