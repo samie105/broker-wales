@@ -13,7 +13,7 @@ export const investmentPlans = [
       "Early access to opportunities",
     ],
     image: "/assets/premiumm.png",
-    price: 100000,
+    price: 50000,
   },
   {
     package: "gold plan",
@@ -28,7 +28,7 @@ export const investmentPlans = [
       "Flexible withdrawal options",
     ],
     image: "/assets/gold.png",
-    price: 75000,
+    price: 10000,
   },
   {
     package: "silver plan",
@@ -43,7 +43,7 @@ export const investmentPlans = [
       "Enhanced security",
     ],
     image: "/assets/silverr.png",
-    price: 50000,
+    price: 5000,
   },
   {
     package: "bronze plan",
@@ -58,6 +58,6 @@ export const investmentPlans = [
       "Mobile app support",
     ],
     image: "/assets/bronze.png",
-    price: 25000,
+    price: 2000,
   },
 ];
