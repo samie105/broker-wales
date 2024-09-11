@@ -28,7 +28,7 @@ text-[#0052FF]"
               >
                 Investment
               </span>{" "}
-              Opportunities with HFX Markets Versatile{" "}
+              Opportunities with Capital Nexus Versatile{" "}
               <span
                 className="
 text-[#0052FF]"

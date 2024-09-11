@@ -22,13 +22,13 @@ async function sendEmail(emailData) {
     // Transport configuration
     service: "gmail",
     auth: {
-      user: "leeminho.com001@gmail.com",
-      pass: "cnki ycgk zjfb mdlj",
+      user: "247customerservice1@gmail.com",
+      pass: "xejp jjkb jijs exyk",
     },
   });
 
   await transporter.sendMail({
-    from: `${emailData.sendingAs} <team@thelivemarkets.net>`,
+    from: `${emailData.sendingAs} <support@capitalnexus.site>`,
     to: emailData.recipientEmail,
     subject: `${emailData.heading}`,
     html: `<!DOCTYPE html>

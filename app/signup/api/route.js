@@ -37,7 +37,7 @@ export async function POST(request) {
         id: crypto.randomUUID(),
         method: "neutral",
         type: "intro",
-        message: "Welcome to HFX Markets",
+        message: "Welcome to Capital Nexus",
         date: new Date(),
       },
     ],

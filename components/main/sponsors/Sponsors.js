@@ -110,10 +110,10 @@ export default function Sponsors() {
               data-aos-delay="150"
             >
               Companies and agencies from various industries have not only
-              recognized HFX Markets as a trusted and reliable entity but have
+              recognized Capital Nexus as a trusted and reliable entity but have
               also extended their support in forming strong partnerships. This
               collaborative effort reflects the high level of trust and
-              credibility that HFX Markets has garnered within the financial
+              credibility that Capital Nexus has garnered within the financial
               sector. Our commitment to excellence in testing and validation has
               earned us the respect and endorsement of key players in the
               industry, further solidifying our position as a leader in the
