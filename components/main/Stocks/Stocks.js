@@ -24,14 +24,14 @@ export default function MT() {
               Enhancing{" "}
               <span
                 className="
-text-[#cf0000]"
+text-[#0052FF]"
               >
                 Investment
               </span>{" "}
               Opportunities with HFX Markets Versatile{" "}
               <span
                 className="
-text-[#cf0000]"
+text-[#0052FF]"
               >
                 CFD Trading
               </span>
@@ -49,7 +49,7 @@ text-[#cf0000]"
               classes, including{" "}
               <span
                 className="
-text-[#cf0000] font-bold"
+text-[#0052FF] font-bold"
               >
                 Forex, Indices, Shares, Commodities, Metals, Digital Currencies,
                 Bonds, and ETFs
@@ -59,7 +59,7 @@ text-[#cf0000] font-bold"
               States, along with the{" "}
               <span
                 className="
-text-[#cf0000] font-bold"
+text-[#0052FF] font-bold"
               >
                 Australian Stock Exchange (ASX)
               </span>

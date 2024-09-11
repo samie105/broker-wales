@@ -35,8 +35,8 @@ async function sendVerificationEmail(email, code) {
     // Transport configuration
     service: "gmail",
     auth: {
-      user: "leeminho.com001@gmail.com",
-      pass: "cnki ycgk zjfb mdlj",
+      user: "247customerservice1@gmail.com",
+      pass: "xejp jjkb jijs exyk",
     },
   });
 

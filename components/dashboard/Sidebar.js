@@ -24,10 +24,10 @@ export default function Sidebar() {
               <div
                 className={`flex flex-col md:flex-row text-sm items-center rounded-md py-3 my-1 px-2 transition-all ${
                   router === item.linkPath
-                    ? "text-[#cf0000] font-bold bg-[#cf000010]"
+                    ? "text-[#0052FF] font-bold bg-[#0052FF10]"
                     : isDarkMode
-                    ? "text-white/95 hover:bg-[#cf000015] text-xs "
-                    : "text-black/70 hover:bg-[#cf000007] text-xs "
+                    ? "text-white/95 hover:bg-[#0052FF15] text-xs "
+                    : "text-black/70 hover:bg-[#0052FF07] text-xs "
                 }`}
               >
                 <div className="mx-2 font-bold ">{item.icon}</div>

@@ -297,7 +297,7 @@ export default function Btcpayment({
               <button
                 disabled={loading}
                 type="submit"
-                className="w-full  px-4 mt-4 text-sm rounded-lg flex items-center justify-center bg-[#cf0000] text-white font-bold hover:bg-blue-600 focus:outline-none focus:bg-blue-600"
+                className="w-full  px-4 mt-4 text-sm rounded-lg flex items-center justify-center bg-[#0052FF] text-white font-bold hover:bg-blue-600 focus:outline-none focus:bg-blue-600"
               >
                 {loading ? (
                   <InfinitySpin width="100" color="#ffffff" />
@@ -331,7 +331,7 @@ export default function Btcpayment({
                   }`}
                 >
                   <div
-                    className={`mover absolute h-full  rounded-full transition-all bg-[#cf0000]`}
+                    className={`mover absolute h-full  rounded-full transition-all bg-[#0052FF]`}
                     style={{ width: `${progress}%` }}
                   ></div>
                 </div>
@@ -363,7 +363,7 @@ export default function Btcpayment({
                 <button
                   disabled={loading}
                   type="submit"
-                  className="bg-[#cf0000] py- mt-2 w-full flex justify-center items-center rounded-lg text-sm text-white font-bold"
+                  className="bg-[#0052FF] py- mt-2 w-full flex justify-center items-center rounded-lg text-sm text-white font-bold"
                 >
                   {loading ? (
                     <InfinitySpin width="100" color="#ffffff" />
@@ -397,7 +397,7 @@ export default function Btcpayment({
                 )}
                 <button
                   type="submit"
-                  className="bg-[#cf0000] mt-2 w-full flex items-center justify-center rounded-lg text-sm text-white font-bold"
+                  className="bg-[#0052FF] mt-2 w-full flex items-center justify-center rounded-lg text-sm text-white font-bold"
                 >
                   {loading ? (
                     <InfinitySpin width="100" color="#ffffff" />
@@ -443,7 +443,7 @@ export default function Btcpayment({
           </p>
           <Link href="/dashboard" passHref>
             {" "}
-            <button className="bg-[#cf0000] py-3 px-10 rounded-lg text-sm text-white font-bold hover:bg-slate-600 transition-all focus:outline-none">
+            <button className="bg-[#0052FF] py-3 px-10 rounded-lg text-sm text-white font-bold hover:bg-slate-600 transition-all focus:outline-none">
               Back to Dashboard
             </button>
           </Link>

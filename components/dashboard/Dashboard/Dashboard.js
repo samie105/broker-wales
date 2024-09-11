@@ -126,7 +126,7 @@ export default function Dash() {
   //         action: (
   //           <ToastAction
   //             altText="Deposit"
-  //             className={`font-bold bg-[#cf0000] text-white`}
+  //             className={`font-bold bg-[#0052FF] text-white`}
   //           >
   //             <Link href="/dashboard/deposits" passHref>
   //               Deposit
@@ -221,8 +221,8 @@ export default function Dash() {
                   <div className="block">
                     {" "}
                     <div
-                      className={`icon-cont bg-gry-50 text-[#cf0000]  ${
-                        isDarkMode ? " bg-[#cf000030]" : "border bg-[#cf000010]"
+                      className={`icon-cont bg-gry-50 text-[#0052FF]  ${
+                        isDarkMode ? " bg-[#0052FF30]" : "border bg-[#0052FF10]"
                       } rounded-full p-3 mr-2 `}
                     >
                       <svg
@@ -281,8 +281,8 @@ export default function Dash() {
                     <div
                       className={`mx-1 ${
                         isDarkMode
-                          ? "text-[#cf0000] bg-[#cf000020]"
-                          : "bg-[#cf000010] text-[#cf0000]"
+                          ? "text-[#0052FF] bg-[#0052FF20]"
+                          : "bg-[#0052FF10] text-[#0052FF]"
                       }  flex font-bold text-xs items-center cursor-pointer md:px-4 md:py-3 p-3 rounded-full md:rounded-lg`}
                     >
                       <svg
@@ -298,7 +298,7 @@ export default function Dash() {
                   </Link>
                   <Link href="dashboard/deposits" passHref>
                     {" "}
-                    <div className="mx-1 bg-[#cf0000] text-white flex font-bold text-xs items-center cursor-pointer md:px-4 md:py-3 p-3 rounded-full md:rounded-lg">
+                    <div className="mx-1 bg-[#0052FF] text-white flex font-bold text-xs items-center cursor-pointer md:px-4 md:py-3 p-3 rounded-full md:rounded-lg">
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
                         viewBox="0 0 20 20"
@@ -337,8 +337,8 @@ export default function Dash() {
             <div className="flex items-center gap-x-2">
               <div className="icon">
                 <div
-                  className={`rounded-full text-[#cf0000] p-3 ${
-                    isDarkMode ? "bg-[#cf000020]" : "bg-[#cf000010]"
+                  className={`rounded-full text-[#0052FF] p-3 ${
+                    isDarkMode ? "bg-[#0052FF20]" : "bg-[#0052FF10]"
                   }`}
                 >
                   <svg
@@ -364,7 +364,7 @@ export default function Dash() {
                     }`}
                   >
                     <div
-                      className="bar absolute top-0 left-0 h-full rounded-full bg-[#cf0000]"
+                      className="bar absolute top-0 left-0 h-full rounded-full bg-[#0052FF]"
                       style={{ width: `${details.tradingProgress}%` }}
                     ></div>
                   </div>

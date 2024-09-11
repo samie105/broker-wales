@@ -54,7 +54,7 @@ export default function GettingStarted() {
               xmlns="http://www.w3.org/2000/svg"
               viewBox="0 0 24 24"
               fill="currentColor"
-              className="w-4 h-4 text-[#cf0000]"
+              className="w-4 h-4 text-[#0052FF]"
             >
               <path d="M11.644 1.59a.75.75 0 01.712 0l9.75 5.25a.75.75 0 010 1.32l-9.75 5.25a.75.75 0 01-.712 0l-9.75-5.25a.75.75 0 010-1.32l9.75-5.25z" />
               <path d="M3.265 10.602l7.668 4.129a2.25 2.25 0 002.134 0l7.668-4.13 1.37.739a.75.75 0 010 1.32l-9.75 5.25a.75.75 0 01-.71 0l-9.75-5.25a.75.75 0 010-1.32l1.37-.738z" />
@@ -69,7 +69,7 @@ export default function GettingStarted() {
               data-aos="fade-down"
             >
               <p>
-                How It <span className="text-[#cf0000]">Works?</span>{" "}
+                How It <span className="text-[#0052FF]">Works?</span>{" "}
               </p>
             </div>
           </div>
@@ -90,7 +90,7 @@ export default function GettingStarted() {
               className="btn ml-2 mt-5 md:mt-12 mb-5 lg:block"
               data-aos="fade-up"
             >
-              <div className="px-5 py-4 bg-[#cf0000] text-white font-semibold text-sm items-center rounded-xl flex">
+              <div className="px-5 py-4 bg-[#0052FF] text-white font-semibold text-sm items-center rounded-xl flex">
                 <p>Create an account</p>
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -127,7 +127,7 @@ export default function GettingStarted() {
                       xmlns="http://www.w3.org/2000/svg"
                       viewBox="0 0 20 20"
                       fill="currentColor"
-                      className="w-4 h-4 mr-2 text-[#cf0000]"
+                      className="w-4 h-4 mr-2 text-[#0052FF]"
                     >
                       <path
                         fillRule="evenodd"
@@ -140,7 +140,7 @@ export default function GettingStarted() {
                 </div>
                 <div className="large-text capitalize text-lg py-2 font-semibold ml-3">
                   <p>
-                    create an <span className="text-[#cf0000]">account</span>
+                    create an <span className="text-[#0052FF]">account</span>
                   </p>
                 </div>
               </div>
@@ -172,7 +172,7 @@ export default function GettingStarted() {
                       xmlns="http://www.w3.org/2000/svg"
                       viewBox="0 0 20 20"
                       fill="currentColor"
-                      className="w-4 h-4 mr-2 text-[#cf0000]"
+                      className="w-4 h-4 mr-2 text-[#0052FF]"
                     >
                       <path
                         fillRule="evenodd"
@@ -185,7 +185,7 @@ export default function GettingStarted() {
                 </div>
                 <div className="large-text capitalize text-lg py-2 font-semibold ml-3">
                   <p>
-                    make a <span className="text-[#cf0000]">deposit</span>{" "}
+                    make a <span className="text-[#0052FF]">deposit</span>{" "}
                   </p>
                 </div>
               </div>
@@ -222,7 +222,7 @@ export default function GettingStarted() {
                       xmlns="http://www.w3.org/2000/svg"
                       viewBox="0 0 20 20"
                       fill="currentColor"
-                      className="w-4 h-4 mr-2 text-[#cf0000]"
+                      className="w-4 h-4 mr-2 text-[#0052FF]"
                     >
                       <path
                         fillRule="evenodd"
@@ -235,7 +235,7 @@ export default function GettingStarted() {
                 </div>
                 <div className="large-text capitalize text-lg py-2 font-semibold ml-3">
                   <p>
-                    <span className="text-[#cf0000]">Trading</span> Interception
+                    <span className="text-[#0052FF]">Trading</span> Interception
                   </p>
                 </div>
               </div>
@@ -267,7 +267,7 @@ export default function GettingStarted() {
                       xmlns="http://www.w3.org/2000/svg"
                       viewBox="0 0 20 20"
                       fill="currentColor"
-                      className="w-4 h-4 mr-2 text-[#cf0000]"
+                      className="w-4 h-4 mr-2 text-[#0052FF]"
                     >
                       <path
                         fillRule="evenodd"
@@ -280,7 +280,7 @@ export default function GettingStarted() {
                 </div>
                 <div className="large-text capitalize text-lg py-2 font-semibold ml-3">
                   <p>
-                    Make <span className="text-[#cf0000]">withdrawal</span>{" "}
+                    Make <span className="text-[#0052FF]">withdrawal</span>{" "}
                     request
                   </p>
                 </div>
