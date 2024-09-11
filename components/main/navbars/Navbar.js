@@ -52,7 +52,7 @@ export default function Navbar() {
   return (
     <>
       <div
-        className={`nav-container  flex justify-between duration-300 items-center /py-6 px-5 transition-colors ${
+        className={`nav-container  flex justify-between duration-300 items-center py-6 px-5 transition-colors ${
           isScrolled ? `${baseColor} border-white/10` : ""
         } ${
           isDarkMode && isScrolled
