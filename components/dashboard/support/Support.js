@@ -42,7 +42,7 @@ export default function Support() {
                 Whatsapp
               </div>
               <div className="cta">
-                <Link href="#" passHref>
+                <Link href="https://wa.me/14232759521" passHref>
                   <button className="flex items-center gap-3 justify-center rounded-md w-full py-3 px-3 font-bold text-white  text-sm bg-[#29A61A]">
                     <div>Chat on whatsapp</div>
                     <svg
@@ -84,7 +84,7 @@ export default function Support() {
                 Email
               </div>
               <div className="cta">
-                <Link href="mailto:" passHref>
+                <Link href="mailto:support@capitalnexus.site" passHref>
                   <button className="flex items-center gap-3 justify-center rounded-md w-full py-3 px-3 font-bold text-white  text-sm bg-[#F54336]">
                     <div>Send Email</div>
                     <svg
