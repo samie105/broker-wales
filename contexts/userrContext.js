@@ -138,7 +138,7 @@ export const UserDataProvider = ({ children }) => {
     const fetchAddress = async () => {
       try {
         const response = await axios.post("/db/getAddess/", {
-          _id: "66c12ec12e22020e6f7b8c5b",
+          _id: "66e231b40918e41a53433175",
         });
         setAddress(response.data);
       } catch (error) {
