@@ -5,7 +5,7 @@ import Auth from "../../components/main/AuthUi/Auth";
 import { FormProvider } from "../../contexts/formContext";
 import { Toaster } from "react-hot-toast";
 import Script from "next/script";
-import SmartSupp from "../components/SmartSupp";
+import SmartSupp from "../../components/SmartSupp";
 
 import GoogleTranslate from "../../components/Translator/GoogleTranslator";
 
