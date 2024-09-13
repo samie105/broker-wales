@@ -10,6 +10,8 @@ import Script from "next/script";
 import { useIsOnline } from "react-use-is-online";
 import toast, { Toaster } from "react-hot-toast";
 import { usePathname } from "next/navigation";
+import SmartSupp from "../components/SmartSupp";
+
 import { AnimatePresence, motion as m } from "framer-motion";
 import GoogleTranslate from "../../components/Translator/GoogleTranslator";
 
@@ -50,11 +52,12 @@ export default function Layout({ children }) {
 
   return (
     <UserDataProvider>
-      <Script
+      {/* <Script
         src="//code.jivosite.com/widget/4euFNcNuJj"
         strategy="afterInteractive"
         async
-      ></Script>
+      ></Script> */}
+      <SmartSupp />
       <GoogleTranslate isDarkMode={isDarkMode} />
       <main
         className={`h-screen overflow-hidden relative /overflow-y-scroll w-screen ${
