@@ -10,10 +10,6 @@ import {
   SheetClose,
   SheetTrigger,
 } from "../../ui/sheet";
-
-import AuthUi from "../AuthUi/AuthUi";
-import { DialogTrigger } from "../../ui/dialog";
-import { Dialog } from "@radix-ui/react-dialog";
 import { useTheme } from "../../../contexts/themeContext";
 
 export default function Navbar() {

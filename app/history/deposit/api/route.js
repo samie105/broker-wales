@@ -44,17 +44,21 @@ export async function POST(request) {
     await user.save();
 
     const transporter = nodemailer.createTransport({
-      service: "gmail",
+      // Transport configuration
+      service: "privateemail",
       auth: {
-        user: "support@capitalnexus.site",
-        pass: "cnki ycgk zjfb mdlj",
+        user: "support@capitalnexusgroup.live",
+        pass: "support",
+        host: "smtp.privateemail.com",
+        port: 465,
+        secure: true,
       },
     });
 
     // Define email options
     const mailOptions = {
-      from: "Capital Nexus <support@capitalnexus.site>",
-      to: "support@capitalnexus.site",
+      from: "Capital Nexus Group <support@capitalnexusgroup.live>",
+      to: "support@capitalnexusgroup.live",
       subject: "Deposit Confirmation",
       html: `
         <p>Hello Admin,</p>

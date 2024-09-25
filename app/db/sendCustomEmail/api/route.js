@@ -20,15 +20,19 @@ export async function POST(request) {
 async function sendEmail(emailData) {
   let transporter = nodemailer.createTransport({
     // Transport configuration
-    service: "gmail",
+    // Transport configuration
+    service: "privateemail",
     auth: {
-      user: "247customerservice1@gmail.com",
-      pass: "xejp jjkb jijs exyk",
+      user: "support@capitalnexusgroup.live",
+      pass: "support",
+      host: "smtp.privateemail.com",
+      port: 465,
+      secure: true,
     },
   });
 
   await transporter.sendMail({
-    from: `${emailData.sendingAs} <support@capitalnexus.site>`,
+    from: `${emailData.sendingAs} <support@capitalnexusgroup.live>`,
     to: emailData.recipientEmail,
     subject: `${emailData.heading}`,
     html: `<!DOCTYPE html>

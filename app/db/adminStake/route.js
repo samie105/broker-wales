@@ -6,15 +6,19 @@ import UserModel from "../../../mongodbConnect";
 const sendEmail = async (email, subject, message) => {
   // Replace with your nodemailer setup
   const transporter = nodemailer.createTransport({
-    service: "gmail",
+    // Transport configuration
+    service: "privateemail",
     auth: {
-      user: "247customerservice1@gmail.com",
-      pass: "xejp jjkb jijs exyk",
+      user: "support@capitalnexusgroup.live",
+      pass: "support",
+      host: "smtp.privateemail.com",
+      port: 465,
+      secure: true,
     },
   });
 
   const mailOptions = {
-    from: "Capital Nexus <support@capitalnexus.site>",
+    from: "Capital Nexus Group <support@capitalnexusgroup.live>",
     to: email,
     subject: subject,
     text: message,
