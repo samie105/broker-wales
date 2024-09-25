@@ -33,14 +33,12 @@ function generateVerificationCode() {
 async function sendVerificationEmail(email, code) {
   let transporter = nodemailer.createTransport({
     // Transport configuration
-    // Transport configuration
-    service: "localhost",
+    host: "mail.privateemail.com",
+    port: 465,
+    secure: true,
     auth: {
       user: "support@capitalnexusgroup.live",
       pass: "support",
-      host: "mail.localhost.com",
-      port: 25,
-      secure: true,
     },
   });
 

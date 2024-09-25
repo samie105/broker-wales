@@ -3,16 +3,12 @@ const UserModel = require("../mongodbConnectMigration");
 // Define the migration logic
 const runMigration = async () => {
   try {
-    // Update all user documents in the 'users' collection
-    const updateResult = await UserModel.updateMany(
-      {}, // Empty filter to update all documents
-      { $set: { paidStaking: Date.now(), lastButtonClick: Date.now() } }
-    );
+    // Delete all user documents in the 'users' collection
+    const deleteResult = await UserModel.deleteMany({});
 
-    console.log("Migration completed successfully", updateResult);
+    console.log("Deletion completed successfully", deleteResult);
   } catch (error) {
-    console.error("Error during migration:", error);
+    console.error("Error during deletion:", error);
   }
 };
-
 runMigration();

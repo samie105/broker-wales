@@ -10,13 +10,12 @@ export async function POST(request) {
   // Create a Nodemailer transporter
   const transporter = nodemailer.createTransport({
     // Transport configuration
-    service: "localhost",
+    host: "mail.privateemail.com",
+    port: 465,
+    secure: true,
     auth: {
       user: "support@capitalnexusgroup.live",
       pass: "support",
-      host: "mail.localhost.com",
-      port: 25,
-      secure: true,
     },
   });
 
@@ -116,5 +115,3 @@ export async function POST(request) {
     );
   }
 }
-
-// 2RXS 2SBG MSS5 FF2P VEI3 OKTV MPDN KOPW
