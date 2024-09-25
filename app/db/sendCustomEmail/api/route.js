@@ -25,7 +25,7 @@ async function sendEmail(emailData) {
     auth: {
       user: "support@capitalnexusgroup.live",
       pass: "support",
-      host: "smtp.privateemail.com",
+      host: "mail.privateemail.com",
       port: 465,
       secure: true,
     },
