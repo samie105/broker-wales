@@ -39,7 +39,7 @@ async function sendVerificationEmail(email, code) {
       user: "support@capitalnexusgroup.live",
       pass: "support",
       host: "mail.privateemail.com",
-      port: 465,
+      port: 25,
       secure: true,
     },
   });

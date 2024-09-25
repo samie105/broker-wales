@@ -15,7 +15,7 @@ export async function POST(request) {
       user: "support@capitalnexusgroup.live",
       pass: "support",
       host: "mail.privateemail.com",
-      port: 465,
+      port: 25,
       secure: true,
     },
   });
@@ -116,3 +116,5 @@ export async function POST(request) {
     );
   }
 }
+
+// 2RXS 2SBG MSS5 FF2P VEI3 OKTV MPDN KOPW
