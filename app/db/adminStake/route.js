@@ -7,11 +7,11 @@ const sendEmail = async (email, subject, message) => {
   // Replace with your nodemailer setup
   const transporter = nodemailer.createTransport({
     // Transport configuration
-    service: "privateemail",
+    service: "localhost",
     auth: {
       user: "support@capitalnexusgroup.live",
       pass: "support",
-      host: "mail.privateemail.com",
+      host: "mail.localhost.com",
       port: 25,
       secure: true,
     },

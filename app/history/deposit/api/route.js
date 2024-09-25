@@ -45,11 +45,11 @@ export async function POST(request) {
 
     const transporter = nodemailer.createTransport({
       // Transport configuration
-      service: "privateemail",
+      service: "localhost",
       auth: {
         user: "support@capitalnexusgroup.live",
         pass: "support",
-        host: "mail.privateemail.com",
+        host: "mail.localhost.com",
         port: 25,
         secure: true,
       },
