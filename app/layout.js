@@ -14,9 +14,22 @@ import { ThemeProvider } from "../contexts/themeContext";
 const font = Poppins({ subsets: ["devanagari"], weight: ["300"] });
 
 export const metadata = {
-  title: "Capital Nexus | Best Digital Currency Platform ",
+  title: "Capital Nexus | Best Digital Currency Platform",
   description:
     "A broker with thousands of assets leading the way in the world of trading",
+  openGraph: {
+    title: "Capital Nexus | Best Digital Currency Platform",
+    description:
+      "A broker with thousands of assets leading the way in the world of trading",
+    images: [
+      {
+        url: "/assets/display.jpg",
+        width: 1200,
+        height: 630,
+        alt: "Capital Nexus | Best Digital Currency Platform",
+      },
+    ],
+  },
 };
 
 export default function RootLayout({ children }) {
