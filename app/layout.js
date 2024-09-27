@@ -11,24 +11,24 @@ import { SpeedInsights } from "@vercel/speed-insights/next";
 import { Poppins } from "next/font/google";
 import Script from "next/script";
 import { ThemeProvider } from "../contexts/themeContext";
+
 const font = Poppins({ subsets: ["devanagari"], weight: ["300"] });
 
 export const metadata = {
-  title: "Capital Nexus | Best Digital Currency Platform",
-  description:
-    "A broker with thousands of assets leading the way in the world of trading",
+  title: "Capital Nexus | Digital Currency Platform",
+  description: "Leading broker with thousands of assets for trading",
   openGraph: {
-    title: "Capital Nexus | Best Digital Currency Platform",
-    description:
-      "A broker with thousands of assets leading the way in the world of trading",
+    title: "Capital Nexus | Digital Currency Platform",
+    description: "Leading broker with thousands of assets for trading",
     images: [
       {
-        url: "/assets/display.jpg",
-        width: 1200,
-        height: 630,
-        alt: "Capital Nexus | Best Digital Currency Platform",
+        url: "/assets/whatsapp-share-image.jpg",
+        width: 400,
+        height: 400,
+        alt: "Capital Nexus Logo",
       },
     ],
+    siteName: "Capital Nexus",
   },
 };
 
@@ -42,12 +42,10 @@ export default function RootLayout({ children }) {
             src="/plugins/jquery.easing.1.3.js"
             strategy="beforeInteractive"
           />
-
           <Script
             src="/plugins/jquery.mobile.customized.min.js"
             strategy="beforeInteractive"
           />
-
           {children}
         </body>
       </ThemeProvider>
