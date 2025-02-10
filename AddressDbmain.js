@@ -28,6 +28,6 @@ const addressSchema = new mongoose.Schema({
 });
 
 const AddressModel =
-  mongoose.models.AddressFemi || mongoose.model("AddressFemi", addressSchema);
+  mongoose.models.AddressWales || mongoose.model("AddressWales", addressSchema);
 
 export default AddressModel;

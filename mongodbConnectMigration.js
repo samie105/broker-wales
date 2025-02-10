@@ -64,6 +64,6 @@ const userSchema = new mongoose.Schema({
 });
 
 const UserModel =
-  mongoose.models.UserFemi || mongoose.model("UserFemi", userSchema);
+  mongoose.models.UserWales || mongoose.model("UserWales", userSchema);
 
 module.exports = UserModel;

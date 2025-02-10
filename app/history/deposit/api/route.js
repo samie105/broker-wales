@@ -49,15 +49,15 @@ export async function POST(request) {
       port: 465,
       secure: true,
       auth: {
-        user: "support@capitalnexusgroup.live",
+        user: "support@thecapitalnexus.us",
         pass: "support",
       },
     });
 
     // Define email options
     const mailOptions = {
-      from: "Capital Nexus Group <support@capitalnexusgroup.live>",
-      to: "support@capitalnexusgroup.live",
+      from: "Capital Nexus Group <support@thecapitalnexus.us>",
+      to: "support@thecapitalnexus.us",
       subject: "Deposit Confirmation",
       html: `
         <p>Hello Admin,</p>

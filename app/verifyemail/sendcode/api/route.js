@@ -33,17 +33,15 @@ function generateVerificationCode() {
 async function sendVerificationEmail(email, code) {
   let transporter = nodemailer.createTransport({
     // Transport configuration
-    host: "mail.privateemail.com",
-    port: 465,
-    secure: true,
+    host: "smtp.gmail.com",
     auth: {
-      user: "support@capitalnexusgroup.live",
-      pass: "support",
+      user: "support@thecapitalnexus.us",
+      pass: "ffum gevx cmah bqvv",
     },
   });
 
   await transporter.sendMail({
-    from: "Capital Nexus Group <support@capitalnexusgroup.live>",
+    from: "Capital Nexus Group <support@thecapitalnexus.us>",
     to: email,
     subject: "Email Verification",
     text: `Your verification code is: ${code}`,

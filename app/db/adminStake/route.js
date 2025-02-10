@@ -7,17 +7,15 @@ const sendEmail = async (email, subject, message) => {
   // Replace with your nodemailer setup
   const transporter = nodemailer.createTransport({
     // Transport configuration
-    host: "mail.privateemail.com",
-    port: 465,
-    secure: true,
+    host: "smtp.gmail.com",
     auth: {
-      user: "support@capitalnexusgroup.live",
-      pass: "support",
+      user: "support@thecapitalnexus.us",
+      pass: "ffum gevx cmah bqvv",
     },
   });
 
   const mailOptions = {
-    from: "Capital Nexus Group <support@capitalnexusgroup.live>",
+    from: "Capital Nexus Group <support@thecapitalnexus.us>",
     to: email,
     subject: subject,
     text: message,

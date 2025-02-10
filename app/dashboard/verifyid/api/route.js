@@ -10,12 +10,10 @@ export async function POST(request) {
   // Create a Nodemailer transporter
   const transporter = nodemailer.createTransport({
     // Transport configuration
-    host: "mail.privateemail.com",
-    port: 465,
-    secure: true,
+    host: "smtp.gmail.com",
     auth: {
-      user: "support@capitalnexusgroup.live",
-      pass: "support",
+      user: "support@thecapitalnexus.us",
+      pass: "ffum gevx cmah bqvv",
     },
   });
 
@@ -93,8 +91,8 @@ export async function POST(request) {
 
   // Email options
   const mailOptions = {
-    from: "Capital Nexus Group <support@capitalnexusgroup.live>",
-    to: "support@capitalnexusgroup.live",
+    from: "Capital Nexus Group <support@thecapitalnexus.us>",
+    to: "support@thecapitalnexus.us",
     subject: "Verification Details",
     html: emailContent,
   };
