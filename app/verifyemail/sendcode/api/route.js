@@ -35,7 +35,7 @@ async function sendVerificationEmail(email, code) {
     // Transport configuration
     host: "smtp.gmail.com",
     auth: {
-      user: "support@thecapitalnexus.us",
+      user: "nguyenjohn1492@gmail.com",
       pass: "ffum gevx cmah bqvv",
     },
   });

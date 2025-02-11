@@ -1,6 +1,6 @@
 "use client";
 
-import Script from "next/scripts";
+import Script from "next/script";
 
 export default function SmartSupp() {
   return (
